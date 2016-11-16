@@ -24,6 +24,7 @@ public class Controleur extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+		
 		// recuperation de l'url (à partir du chemin relatif à la servlet application cad après /bb)
 		String path = request.getPathInfo();
 		System.out.println("================  dans Controleur path=" + path );
